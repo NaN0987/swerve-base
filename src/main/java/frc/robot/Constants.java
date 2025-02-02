@@ -126,7 +126,7 @@ public final class Constants {
         // The coefficient of friction between the drive wheel and the carpet
         public static final double kWheelCOF = 1;
 
-        // The L1 MK4 and MK4i modules have a gear ratio of 8.14:1 on the drive wheels.
+        // The L2 MK4 and MK4i modules have a gear ratio of 6.75:1 on the drive wheels.
         public static final double kDrivingMotorReduction = 6.75;
         public static final double kDriveWheelFreeSpeedMetersPerSecond = (NEOMotorConstants.kFreeSpeedRps * kWheelCircumferenceMeters)
                 / kDrivingMotorReduction;
